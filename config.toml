@@ -11,6 +11,11 @@ cn = "/cn/:year/:month/:day/:slug/"
 en = "/en/:year/:month/:day/:slug/"
 posts = "/posts/:year/:month/:day/:slug/"
 
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 0
+
 [[menu.cn]]
     name = "主页"
     url = "/"
@@ -36,9 +41,13 @@ posts = "/posts/:year/:month/:day/:slug/"
     url = "/en/posts"
     weight = 2
 [[menu.en]]
+    name = "hobby"
+    url = "/en/hobby"
+    weight = 3
+[[menu.en]]
     name = "中文"
     url = "/"
-    weight = 2
+    weight = 4
 
 [params]
     description = "Peronal website of Your Name"
