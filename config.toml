@@ -12,7 +12,7 @@ en = "/en/:year/:month/:day/:slug/"
 posts = "/posts/:year/:month/:day/:slug/"
 
 [[menu.cn]]
-    name = "主页"
+    name = "主页1"
     url = "/"
     weight = 1
 [[menu.cn]]
@@ -20,17 +20,21 @@ posts = "/posts/:year/:month/:day/:slug/"
     url = "/cn/about/"
     weight = 2
 [[menu.main]]
-    name = "博客"
+    name = "博客1"
     url = "/cn/posts/" 
     weight = 3
 [[menu.cn]]
-    name = "English"
+    name = "English1"
     url = "/en/about"
     weight = 4
 [[menu.en]]
     name = "About"
     url = "/en/about"
     weight = 1
+[[menu.en]]
+    name = "posts"
+    url = "/en/posts"
+    weight = 2
 [[menu.en]]
     name = "中文"
     url = "/"
