@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://yangxingyue0623.github.io/"
 languageCode = "en-us"
 title = "Hugo-HT"
 theme = "hugo-ht"
@@ -12,31 +12,31 @@ en = "/en/:year/:month/:day/:slug/"
 posts = "/posts/:year/:month/:day/:slug/"
 
 [[menu.en]]
-    name = "Home"
+    name = "主页"
     url = "/"
     weight = 1
 [[menu.en]]
-    name = "About"
+    name = "关于"
     url = "/en/about/"
     weight = 2
 [[menu.en]]
-    name = "Posts"
+    name = "日志"
     url = "/en/posts/"
     weight = 3
 [[menu.en]]
-    name = "中文"
+    name = "English"
     url = "/cn/posts/"
     weight = 4
 [[menu.cn]]
-    name = "关于"
+    name = "About"
     url = "/cn/about/"
     weight = 1
 [[menu.cn]]
-    name = "日志"
+    name = "posts"
     url = "/cn/posts/"
     weight = 2
 [[menu.cn]]
-    name = "English"
+    name = "中文"
     url = "/"
     weight = 3
 
@@ -46,18 +46,18 @@ posts = "/posts/:year/:month/:day/:slug/"
     # Please make sure `blogDirNmae` matches the name used in `menu` above:
     blogDirName = "posts"
     # singleLang = true
-    defaultLang = "en"
+    defaultLang = "cn"
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs" 
     MathJaxVersion = "2.7.5"
     favicon = "media/hugo-logo.png"
     # Edit by yourself:
-    GithubEdit = "https://github.com/USERNAME/REPONAME/edit/master/content/"
+    GithubEdit = "https://github.com/yangxingyue0623/yangxingyue0623.github.io/edit/master/content/"
     copyright = "&copy;"
     copyrightYear = "2020-2021"
     # Edit by yourself:
-    GithubRepo = "https://github.com/USERNAME/REPONAME"
+    GithubRepo = "https://github.com/yangxingyue0623/yangxingyue0623.github.io"
     # Edit by yourself:
-    ContentSource = "https://raw.githubusercontent.com/USERNAME/REPONAME/master/content/" 
+    ContentSource = "https://raw.githubusercontent.com/yangxingyue0623/yangxingyue0623.github.io/master/content/" 
 
 [params.logo]
   # Change the logo picture as your prefer:
@@ -70,7 +70,7 @@ posts = "/posts/:year/:month/:day/:slug/"
 
     [params.lang.author]
       en = "Your Name"
-      cn = "你的名字"
+      cn = "杨星月（yangxingyue）"
 
     [params.lang.madeWith]
       en = "Made with"
