@@ -6,16 +6,30 @@ title: Home
 
 你好！欢迎来到杨星月的个人博客!
 
+{{<block class="reminder"> }}
+
  <p>电话：18380285720</p>
+ <p>邮箱：18380285720@163.com</p>
 
-<p>邮箱：18380285720@163.com</p>
+{{<end>}}
 
- <p>我的github地址：<a href="https://github.com/yangxingyue0623">github地址</a></p>
+---
 
- <p>我的博客园地址：<a href="https://www.cnblogs.com/xingyue0623/">博客园地址</a></p>
+{{<block class="reminder">}}
 
-<p>我的CSND地址：<a href="https://blog.csdn.net/kuimeiyuzu">CSDN地址</a></p>
+<center>
+     <p>我的github地址：<a href="https://github.com/yangxingyue0623">github地址</a></p>
+     <p>我的博客园地址：<a href="https://www.cnblogs.com/xingyue0623/">博客园地址</a></p>
+    <p>我的CSND地址：<a href="https://blog.csdn.net/kuimeiyuzu">CSDN地址</a></p>
+    <p>我的gitee地址：<a href="https://gitee.com/yangxingyue0623">gitee地址</a></p>
+</center>
 
- <p>我的gitee地址：<a href="https://gitee.com/yangxingyue0623">gitee地址</a></p>
+{{<end>}}
 
-Hello,Everyone! Welcome to my Personal Website!
+
+
+---
+
+
+
+   Hello,Everyone! Welcome to my Personal Website!</p>
