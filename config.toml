@@ -11,34 +11,26 @@ cn = "/cn/:year/:month/:day/:slug/"
 en = "/en/:year/:month/:day/:slug/"
 posts = "/posts/:year/:month/:day/:slug/"
 
-[[menu.en]]
+[[menu.cn]]
     name = "主页"
     url = "/"
     weight = 1
-[[menu.en]]
+[[menu.cn]]
     name = "关于"
-    url = "/en/about/"
+    url = "/cn/about/"
     weight = 2
-[[menu.en]]
-    name = "日志"
-    url = "/en/posts/"
+[[menu.cn]]
+    name = "English"
+    url = "/en/about"
     weight = 3
 [[menu.en]]
-    name = "English"
-    url = "/cn/posts/"
-    weight = 4
-[[menu.cn]]
     name = "About"
-    url = "/cn/about/"
+    url = "/en/about"
     weight = 1
-[[menu.cn]]
-    name = "posts"
-    url = "/cn/posts/"
-    weight = 2
-[[menu.cn]]
+[[menu.en]]
     name = "中文"
     url = "/"
-    weight = 3
+    weight = 2
 
 [params]
     description = "Peronal website of Your Name"
@@ -70,7 +62,7 @@ posts = "/posts/:year/:month/:day/:slug/"
 
     [params.lang.author]
       en = "yangxingyue"
-      cn = "杨星月（yangxingyue）"
+      cn = "杨星月"
 
     [params.lang.madeWith]
       en = "Made with"
