@@ -6,16 +6,10 @@ title: Home
 
 你好！欢迎来到杨星月的个人博客，这里可以看到我作为程序员的历程！
 
-{{<block class="reminder"> }}
-
  <p>电话：18380285720</p>
  <p>邮箱：18380285720@163.com</p>
 
-{{<end>}}
 
----
-
-{{<block class="reminder">}}
 
 <center>
      <p>我的github地址：<a href="https://github.com/yangxingyue0623">github地址</a></p>
@@ -23,8 +17,6 @@ title: Home
     <p>我的CSND地址：<a href="https://blog.csdn.net/kuimeiyuzu">CSDN地址</a></p>
     <p>我的gitee地址：<a href="https://gitee.com/yangxingyue0623">gitee地址</a></p>
 </center>
-
-{{<end>}}
 
 
 
